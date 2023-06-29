@@ -2,6 +2,7 @@
 #define WALL_H
 #include "stdafx.h"
 #include "Entity.h"
+#include "CollisionObject.h"
 
 class Wall : public Entity
 {

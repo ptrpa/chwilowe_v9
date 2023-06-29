@@ -9,9 +9,8 @@ class Entity
 {
 private:
 	void initVariables();
-protected:
 
-	
+protected:
 	HitboxComponent* hitboxComponent;
 	MovementComponent* movementComponent;
 	AnimationComponent* animationComponent;
@@ -23,8 +22,8 @@ public:
 	sf::Sprite sprite;
 	bool destroyable;
 	bool harmful;
-
-
+	int type; ///1-player, 2-wall, 3-bomb, 4-explosion, 5-boost
+	bool killed;
 	//Comp functions
 	void setTexture(sf::Texture& texture);
 	void createMovementComponent(const float maxVelocity, const float acceleration, const float deceleration);

@@ -22,7 +22,6 @@
 #include <mutex>
 #include <future>
 
-
 //SFML
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
@@ -31,4 +30,3 @@
 #include <SFML/Window.hpp>
 
 #endif // !HEADER_H
-
